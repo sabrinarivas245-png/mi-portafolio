@@ -129,38 +129,115 @@ p {
     margin-top: 0;
     color: #f8fafc;
 }
-.tarjeta-proyecto p {
-    font-size: 1rem;
-    color: #94a3b8;
-}
-.tecnologia {
-    display: inline-block;
-    background-color: #38bdf820;
-    color: #38bdf8;
-    padding: 4px 10px;
-    border-radius: 6px;
-    font-size: 0.85rem;
-    font-weight: bold;
-    margin-top: 10px;
-}
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Portafolio - Valeria Rivas</title>
+    <style>
+        body {
+            background-color: #0b0f19;
+            color: #ffffff;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 20px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            min-height: 100vh;
+        }
+        .contenedor {
+            max-width: 600px;
+            width: 100%;
+            text-align: center;
+        }
+        h1 {
+            color: #38bdf8;
+            font-size: 2.2rem;
+            margin-bottom: 10px;
+        }
+        .subtitulo {
+            font-size: 1.1rem;
+            color: #94a3b8;
+            margin-bottom: 30px;
+            line-height: 1.5;
+        }
+        .btn-whatsapp {
+            display: inline-block;
+            background-color: #25d366;
+            color: #ffffff;
+            text-decoration: none;
+            padding: 12px 25px;
+            border-radius: 8px;
+            font-weight: bold;
+            margin-bottom: 40px;
+            transition: background-color 0.3s;
+        }
+        .btn-whatsapp:hover {
+            background-color: #128c7e;
+        }
+        h2 {
+            font-size: 1.5rem;
+            color: #ffffff;
+            margin-top: 20px;
+            margin-bottom: 20px;
+            border-bottom: 2px solid #1e293b;
+            padding-bottom: 10px;
+        }
+        .tarjeta-proyecto {
+            background-color: #111827;
+            border: 1px solid #1e293b;
+            border-radius: 10px;
+            padding: 20px;
+            margin-bottom: 20px;
+            text-align: left;
+        }
+        .tarjeta-proyecto h3 {
+            margin-top: 0;
+            color: #38bdf8;
+            font-size: 1.3rem;
+        }
+        .tarjeta-proyecto p {
+            color: #94a3b8;
+            font-size: 1rem;
+            line-height: 1.4;
+            margin-bottom: 15px;
+        }
+        .tecnologia {
+            display: inline-block;
+            background-color: #1e293b;
+            color: #38bdf8;
+            padding: 4px 10px;
+            border-radius: 5px;
+            font-size: 0.85rem;
+            font-weight: bold;
+        }
+    </style>
 </head>
-<body
-<div class="foto-perfil"></div>
-    <h1>¡Hola soy valeria rivas !</h1>
-    <p>Frontend Developer. Este es el inicio de mi portafolio para empresas de España, México y El Salvador.</p>
-    <a href="https://wa.me" target="_blank" class="btn-contacto">Contactar por WhatsApp</
-</body><h2 class="titulo-seccion">Mis Proyectos Probiados</h2>
-<div class="contenedor-proyectos">
-    <div class="tarjeta-proyecto">
-        <h3>E-Commerce para Tienda Local</h3>
-        <p>Una tienda en línea con carrito de compras interactivo y catálogo de productos automatizado.</p>
-        <span class="tecnologia">JavaScript</span>
-    </div>
-    <div class="tarjeta-proyecto">
-        <h3>Sistema de Citas Corporativas</h3>
-        <p>Aplicación web optimizada para que negocios agenden citas y organicen su agenda en tiempo real.</p>
-        <span class="tecnologia">React.js</span>
-    </div>
-</div>
-</html>
+<body>
 
+    <div class="contenedor">
+        <h1>¡Hola soy valeria rivas !</h1>
+        <p class="subtitulo">Frontend Developer. Este es el inicio de mi portafolio para empresas de España, México y El Salvador.</p>
+        
+        <a href="https://wa.me" target="_blank" class="btn-whatsapp">Contactar por WhatsApp</a>
+
+        <h2>Mis Proyectos Probados</h2>
+
+        <div class="tarjeta-proyecto">
+            <h3>E-Commerce para Tienda Local</h3>
+            <p>Una tienda en línea con carrito de compras interactivo y catálogo de productos automatizado.</p>
+            <span class="tecnologia">JavaScript</span>
+        </div>
+
+        <div class="tarjeta-proyecto">
+            <h3>Sistema de Citas Corporativas</h3>
+            <p>Aplicación web optimizada para que negocios agenden citas y organicen su agenda en tiempo real.</p>
+            <span class="tecnologia">React.js</span>
+        </div>
+    </div>
+
+</body>
+</html>
